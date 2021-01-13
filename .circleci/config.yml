@@ -7,10 +7,3 @@ jobs:
     parallelism: 14
     steps:
       - run: npm install typescript express axios webpack prettier eslint jest
-
-workflows:
-  version: 2
-  
-  workflow:
-    jobs:
-      - build
