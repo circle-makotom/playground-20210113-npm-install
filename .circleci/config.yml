@@ -13,4 +13,4 @@ workflows:
   
   workflow:
     jobs:
-      - run
+      - build
