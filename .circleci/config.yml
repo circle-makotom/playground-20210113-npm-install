@@ -4,6 +4,6 @@ jobs:
   build:
     docker:
       - image: cimg/node:current
-    parallelism: 14
+    parallelism: 21
     steps:
       - run: npm install typescript express axios webpack prettier eslint jest
